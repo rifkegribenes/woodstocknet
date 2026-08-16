@@ -155,6 +155,25 @@ h2 {
     border-radius: 6px; 
     margin-bottom: 1rem; 
     font-weight: bold; 
+    background-size:cover;
+    background-position:center center;
+}
+
+.card-btn {
+    margin: 20px auto 0 auto;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #010203;
+    color: #f1eee9;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out; 
+}
+
+.card-btn:hover {
+    color:#fff;
+    background-color: #ff6600;
 }
 
 #about p {
