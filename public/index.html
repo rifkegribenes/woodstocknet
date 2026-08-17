@@ -37,19 +37,19 @@
         <p><strong>Woodstock NET is actively recruiting new members, and we’d love to meet you!</strong> No prior experience or training needed. </p>
         <div class="grid">
             <div class="card">
-                <div class="card-img" style="background-image:url('img/cargobikes.png');background-position:top center;"/></div>
+                <div class="card-img" style="background-image:url('img/cargobikes.png');background-position:top center;"></div>
                 <h3>Practice lifesaving skills with your neighbors </h3>
                 <p>Woodstock NET organizes monthly trainings on topics including first aid, radio communications, urban search and rescue, fire suppression, disaster sanitation, and many others. Trainings are open to all; no previous experience needed. Join our email list for invites and updates.</p>
                 <a class="card-btn" href="#join">Join your neighbors</a>
             </div>
             <div class="card">
-                <div class="card-img" style="background-image:url('img/FFE_portrait_sq.png');background-position:center center;"/></div>
+                <div class="card-img" style="background-image:url('img/FFE_portrait_sq.png');background-position:center center;"></div>
                 <h3>Become a NET Volunteer</h3>
                 <p>Ready to take the next step? Sign up to become an active NET Volunteer. You'll get 28 hours of training from PBEM and Portland Fire & Rescue. Active NETs are eligible for deployments and more advanced training, including CPR/AED, Wilderness First Aid, HAZMAT awareness, advanced radio communications training, and more.</p>
                 <a class="card-btn" href="https://www.portland.gov/pbem/neighborhood-emergency-teams/volunteer" target="_blank">Become a NET</a>
             </div>
             <div class="card">
-                <div class="card-img" style="background-image:url('img/disaster_san_2.png');"/></div>
+                <div class="card-img" style="background-image:url('img/disaster_san_2.png'); background-position: center center; background-size: cover;"></div>
                 <h3>Organize a Community Preparedness Pod</h3>
                 <p>Pods are small groups of neighbors (2 or more nearby households) with a shared interest in helping each other during emergencies. Pods help build neighborhood relationships, expand social connections, and share emergency prep skills. If you're interested in joining or leading a pod, get in touch!</p>
                 <a class="card-btn" href="https://calendar.app.google/kAZggwh558oYP57r6">Organize a pod</a>
@@ -61,24 +61,24 @@
         <h2>Events</h2>
         <div class="grid">
             <div class="card">
-                <div class="card-img">News 1</div>
+                <div class="card-img"  style="background-image:url('img/USAR_woodstock.png');background-position:center left;"></div>
                 <h3>September 14: Door Marking, Urban Search and Rescue</h3>
-                <p class="event-details">Monday September 14, 6:30 - 7:30 PM. Woodstock Park, SW corner, SE 47th/Harold </p>
+                <p class="event-details"><strong>Monday September 14, 6:30 - 7:30 PM</strong><br>Woodstock Park, SW corner<br>SE 47th/Harold </p>
                 <p class="event-desc">Hands-on practice with door-marking and role-playing urban search and rescue scenarios.</p>
                 <a class="card-btn" href="https://calendar.app.google/kAZggwh558oYP57r6">More details / RSVP</a>
             </div>
             <div class="card">
-                <div class="card-img">News 2</div>
+                <div class="card-img"  style="background-image:url('img/map.png');background-position:center center;"></div>
                 <h3>October 11: Neighborhood Pod Starter Kit</h3>
-                <p class="event-details">Sunday October 11, 12:30 - 2:30 PM. Woodstock Library community room, 6008 SE 49th Ave.</p> 
+                <p class="event-details"><strong>Sunday October 11, 12:30 - 2:30 PM</strong><br>Woodstock Library community room<br>6008 SE 49th Ave.</p> 
                 <p class="event-desc">Our NET training covers disaster response — this workshop covers the community organizing skills to build strong neighborhood ties before disaster hits. Practice the 1:1 conversations and first-meeting basics that turn interested neighbors into a community preparedness pod, and leave with a starter kit of tools, a plan for your first outreach, and a group to check in with along the way.</p>
                 <a class="card-btn" href="https://calendar.app.google/kAZggwh558oYP57r6">More details / RSVP</a>
             </div>
             <div class="card">
-                <div class="card-img">News 3</div>
+                <div class="card-img"  style="background-image:url('img/CDE_2018_Oct.png');background-position:center center;"></div>
                 <h3>November 7: Fall City-wide Deployment Exercise (CDE)</h3>
-                <p class="event-details">Saturday November 7, 1:00 - 4:00 PM. Woodstock Park, SW corner, SE 47th/Harold </p> 
-                <p class="event-desc">Twice a year, NET teams all over the city role-play a disaster scenario and practice search and rescue, triage, radio communications, and Incident Command Structure. Lots of fun, and a great way to practice / refresh the skills you learned in basic training. Registration opens in October.</span></p>
+                <p class="event-details"><strong>Saturday November 7, 1:00 - 4:00 PM</strong><br>Woodstock Park, SW corner<br>SE 47th/Harold </p> 
+                <p class="event-desc">Twice a year, NET teams all over the city role-play a disaster scenario and practice search and rescue, triage, radio communications, and Incident Command Structure. Lots of fun, and a great way to practice the skills you learned in basic training. If you're still waiting for a spot in Basic NET Training, you can participate as a Spontaneous Unaffiliated Volunteer (SUV). <strong>Registration opens in October.</strong></p>
                 <!-- <a class="card-btn" href="https://calendar.app.google/kAZggwh558oYP57r6">More details / RSVP</a> -->
             </div>
         </div>
@@ -86,25 +86,58 @@
 
     <section id="join">
         <h2>Join Us</h2>
-        <p style="margin-bottom: 1.5rem; color: #f1eee9;">Sign up for email invites to Woodstock NET events.</p>
+        <p style="margin-bottom: 1.5rem;">Sign up for email invites to Woodstock NET events.</p>
         
-        <!-- Replace form action URL and entry names with your Google Form details -->
-        <form action="https://docs.google.com/forms/d/e/your-form-id/formResponse" method="POST" target="_blank">
-            <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="entry.123456789" required placeholder="Your Name">
+        <div class="form-wrap card">
+
+          <!-- Script and Hidden Iframe to catch the submission in the background -->
+        <script>let submitted = false;</script>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) { handleFormSubmit(); }"></iframe>
+        
+          <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdAKW9YPmH4CPG9q0n0aoMBzqKRkFNN7oUeHZ2Wsj3Fu-VxWQ/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+            <!-- Wrapper for fields to hide on submission -->
+            <div id="form-fields">
+              <div class="form-group">
+                  <label for="name">Name <span aria-label="Required">*</span></label>
+                  <input type="text" id="name" name="entry.1869191350" required placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                  <label for="name">Phone <span aria-label="Required">*</span></label>
+                  <input type="text" id="name" name="entry.24934510" required placeholder="Your Phone">
+              </div>
+              <div class="form-group">
+                  <label for="email">Email <span aria-label="Required">*</span></label>
+                  <input type="email" id="email" name="entry.305232031" required placeholder="Your Email">
+              </div>
+              <div class="form-group">
+                  <label for="name">What neighborhood do you live in? <span aria-label="Required">*</span></label>
+                  <input type="text" id="name" name="entry.132880070" required placeholder="Your Neighborhood">
+              </div>
+              <div class="form-group">
+                <p><strong>I am a… <span aria-label="Required">*</span></strong></p>
+                <div class="radio-group" role="radiogroup" aria-required="true">
+                  <label>
+                    <input type="radio" name="entry.229879303" value="Active NET (completed basic NET training)"> Active NET (completed basic NET training)
+                  </label>
+                  <label>
+                    <input type="radio" name="entry.229879303" value="NET applicant (waiting for basic NET training)"> NET applicant (waiting for basic NET training)
+                  </label>
+                  <label>
+                    <input type="radio" name="entry.229879303" value="Interested neighbor (anybody is welcome to join the list and come to NET meetings)"> Interested neighbor (anybody is welcome to join the list and come to NET meetings)
+                  </label>
+                </div>
+              </div>
+              
+              <div class="btn-container">
+                  <button type="submit" class="card-btn">Submit</button>
+              </div>
             </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="entry.987654321" required placeholder="Your Email">
+            <!-- In-place Thank You Message (hidden by default) -->
+            <div id="thank-you-message" style="display: none; padding: 1.5rem; background: #dcfce7; color: #15803d; border-radius: 6px; font-weight: bold; text-align: center; margin-bottom: 1.5rem;">
+                Thanks for signing up! If you don't get a notification that you were added to the group within 24 hours, please contact us at tl.woodstock@friendsofportlandnet.org.
             </div>
-            
-            <div class="btn-container">
-                <button type="submit" class="btn btn-primary">Submit to Form</button>
-                <a href="#" class="btn btn-secondary">Resource 1</a>
-                <a href="#" class="btn btn-secondary">Resource 2</a>
-            </div>
-        </form>
+          </form>
+        </div>
     </section>
 
 <!--     <section id="events">
@@ -115,10 +148,11 @@
     </section> -->
 
     <footer>
-        <p><strong>Contact Us:</strong> tl.woodstock@friendsofportlandnet.org</p>
+        <div class="logo">
+          <img src="img/woodstocknet_logo.png" alt="Woodstock NET" />
+        </div>
+        <a class="card-btn" href="mailto:tl.woodstock@friendsofportlandnet.org">Contact Us</a>
         <div class="footer-links">
-<!--             <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a> -->
         </div>
     </footer>
 
@@ -139,6 +173,14 @@
                 btn.textContent = 'Read Less';
             }
         }
+
+        function handleFormSubmit() {
+            // Hide the input fields and submit button
+            document.getElementById('form-fields').style.display = 'none';
+            // Show the custom green thank-you box
+            document.getElementById('thank-you-message').style.display = 'block';
+        }
+
     </script>
 </body>
 </html>

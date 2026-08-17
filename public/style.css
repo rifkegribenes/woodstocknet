@@ -163,6 +163,7 @@ h2 {
     margin: 20px auto 0 auto;
     padding: 10px 20px;
     border-radius: 20px;
+    border: 0px;
     background-color: #010203;
     color: #f1eee9;
     display: block;
@@ -180,6 +181,11 @@ h2 {
     margin-top: 1rem;
 }
 
+#join p {
+    margin-top: 1rem;
+    color: #010203;
+}
+
 .more-text { 
     display: none; 
 }
@@ -193,6 +199,17 @@ h2 {
     cursor: pointer; 
     font-weight: bold; 
     margin-top: 0.5rem; 
+}
+
+.event-details {
+    margin: 10px 0;
+    padding: 10px 0;
+    border-top: 1px dotted #ff6600;
+    border-bottom: 1px dotted #ff6600;
+}
+
+.event-desc {
+
 }
 
 .banner-small { 
@@ -209,8 +226,17 @@ h2 {
     margin: 1.5rem 0; 
 }
 
+.form-wrap {
+    margin: auto;
+    max-width: 600px;
+}
+
 .form-group { 
     margin-bottom: 1rem; 
+}
+
+.form-group p {
+    margin-bottom:20px;
 }
 .form-group label { 
     display: block; 
@@ -229,6 +255,40 @@ h2 {
     gap: 1rem; 
     margin-top: 1.5rem; 
 }
+
+.btn-container button {
+    font-size: 1rem;
+}
+
+/* Radio group styling */
+  .radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+
+  .radio-group label {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    width: 100%;       
+    cursor: pointer;
+    font-weight: 400;
+  }
+
+  .form-group input[type="radio"] {
+    display: inline-block;
+    width: 20px;
+    flex-shrink: 0;    
+    margin-top: 0.25rem; 
+  }
+
+  .radio-group label span {
+    display: inline;   
+    word-break: break-word; 
+  }
+
 .btn { 
     display: inline-block; 
     padding: 0.75rem 1.5rem; 
@@ -281,4 +341,9 @@ footer {
 .footer-links a { 
     color: #f1eee9; 
     text-decoration: none; 
+}
+
+footer .card-btn {
+    max-width: 300px;
+    margin: auto;
 }
