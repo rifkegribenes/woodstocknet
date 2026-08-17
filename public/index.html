@@ -82,6 +82,9 @@
                 <!-- <a class="card-btn" href="https://calendar.app.google/kAZggwh558oYP57r6">More details / RSVP</a> -->
             </div>
         </div>
+        <div class="btn-container">
+            <a href="https://calendar.google.com/calendar/u/0?cid=d29vZHN0b2NrbmV0ZXZlbnRzQGdtYWlsLmNvbQ" target="_blank" class="card-btn">All Events</a>
+        </div>
     </section>
 
     <section id="join">
@@ -159,7 +162,11 @@
     <script>
         function toggleMenu() {
             const navLinks = document.getElementById('navLinks');
-            navLinks.classList.toggle('active');
+            const menuBtn = document.querySelector('.menu-btn');
+            
+            const isOpen = navLinks.classList.toggle('active');
+            
+            menuBtn.textContent = isOpen ? '✕' : '☰';
         }
 
         function toggleReadMore(btn) {

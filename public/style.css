@@ -63,27 +63,6 @@ nav {
     right: 20px;
 }
 
-@media (max-width: 768px) {
-    .menu-btn { 
-        display: block; 
-    }
-    .nav-links { 
-        display: none; 
-        flex-direction: column; 
-        width: 100%; 
-        position: absolute; 
-        top: 0; 
-        left: 0; 
-        background: #010203; 
-        padding: 1rem; 
-        /*border-top: 1px solid #e5e7eb; */
-        box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
-    }
-    .nav-links.active { 
-        display: flex; 
-    }
-}
-
 section { 
     padding: 4rem 1.5rem; 
     max-width: 1200px; 
@@ -175,6 +154,10 @@ h2 {
 .card-btn:hover {
     color:#fff;
     background-color: #ff6600;
+}
+
+.card h3 {
+    line-height: 1.1rem;
 }
 
 #about p {
@@ -346,4 +329,29 @@ footer {
 footer .card-btn {
     max-width: 300px;
     margin: auto;
+}
+
+@media (max-width: 768px) {
+    .menu-btn { 
+        display: block; 
+        z-index: 2;
+    }
+    .nav-links { 
+        display: none; 
+        flex-direction: column; 
+        width: 100%; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        background: #010203; 
+        padding: 1rem; 
+        /*border-top: 1px solid #e5e7eb; */
+        box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
+    }
+    .nav-links.active { 
+        display: flex; 
+    }
+    .hero-content {
+        top: 18px;
+    }
 }
