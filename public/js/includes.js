@@ -31,3 +31,5 @@ function updateHeaderScrollState() {
 document.addEventListener('partialsLoaded', updateHeaderScrollState);
 window.addEventListener('scroll', updateHeaderScrollState, { passive: true });
 window.addEventListener('load', updateHeaderScrollState);
+
+//comment timestamp
