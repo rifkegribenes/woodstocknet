@@ -42,6 +42,12 @@ nav {
     list-style: none; 
     gap: 1.5rem; 
 }
+.nav-links:not(.index *) {
+  padding: 10px 20px;
+  background: rgba(1, 2, 3, 0.5)
+}
+
+
 .nav-links a { 
     text-decoration: none; 
     color: #e5e7eb; 
@@ -64,10 +70,15 @@ nav {
 }
 
 section { 
-    padding: 4rem 1.5rem; 
+    padding: 1.5rem; 
     max-width: 1200px; 
     margin: 0 auto; 
 }
+
+.index section { 
+    padding: 4rem 1.5rem; 
+}
+
 .hero { 
     max-width: 100%; 
     padding: 0; 
@@ -89,10 +100,19 @@ section {
     top: 0; 
     left: 0; 
     opacity: 1; 
-    background:url('img/banner_sunset.svg');
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: left center;
+}
+.hero-home {
+   background:url('img/banner_sunset.svg');
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-position: left center; 
+}
+
+.hero-radio {
+   background:url('img/banner_radio.jpg');
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-position: left center; 
 }
 .hero-content { 
     position: relative; 
@@ -107,6 +127,21 @@ section {
 
 h2 {
     line-height: .9;
+    /*margin-top: 1rem;*/
+}
+
+.index h2 {
+  margin-top:0;
+}
+
+ul {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+ul ul {
+  margin-top: 0;
+  margin-left: 2rem;
 }
 
 .grid { 
@@ -160,12 +195,11 @@ h2 {
     line-height: 1.1rem;
 }
 
-#about p {
+p {
     margin-top: 1rem;
 }
 
 #join p {
-    margin-top: 1rem;
     color: #010203;
 }
 
@@ -335,6 +369,12 @@ footer .card-btn {
     .menu-btn { 
         display: block; 
         z-index: 2;
+    }
+
+    .menu-btn:not(.index *) {
+      background:  #010203;
+      padding: 0 7px 2px 7px;
+      border-radius: 4px;
     }
     .nav-links { 
         display: none; 
