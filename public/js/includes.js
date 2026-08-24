@@ -21,3 +21,9 @@ function toggleMenu() {
   const isOpen = navLinks.classList.toggle('active');
   menuBtn.textContent = isOpen ? '✕' : '☰';
 }
+
+window.addEventListener('scroll', () => {
+    const header = document.querySelector('header');
+    if (!header) return;
+    header.classList.toggle('scrolled', window.scrollY > 0);
+}, { passive: true });

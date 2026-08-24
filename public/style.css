@@ -10,7 +10,7 @@ body {
     scroll-behavior: smooth; 
     background-color: #f1eee9;
 }
-header { 
+/*header { 
     position: absolute; 
     top: 0; 
     left: 0; 
@@ -18,7 +18,25 @@ header {
     background: transparent; 
     box-shadow: none; 
     z-index: 1000; 
+}*/
+
+header {
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    z-index: 20;
+    height: 120px;
+    padding: 0 1.5rem;
+    background-color: transparent;
+    transition: background-color 0.2s ease;
 }
+
+header.scrolled {
+    background-color: rgba(1, 2, 3, 1);
+}
+
+
 nav { 
     display: flex; 
     justify-content: space-between; 
@@ -47,15 +65,24 @@ nav {
   background: rgba(1, 2, 3, 0.5)
 }
 
+.nav-links:not(.index *).scrolled {
+  padding: 10px 20px;
+  background: transparent;
+}
+
 
 .nav-links a { 
     text-decoration: none; 
     color: #e5e7eb; 
     font-weight: 500; 
-    transition: color 0.2s; 
+    transition: color 0.3s ease, border 0.3s ease; 
+    padding: 5px 15px;
+    border: 1px solid transparent;
+    border-radius: 20px;
 }
 .nav-links a:hover { 
     color: #fff; 
+    border: 1px solid #f1eee9;
 }
 .menu-btn { 
     display: none; 
@@ -343,11 +370,10 @@ p {
 }
 
 footer { 
-    background: #1f2937; 
-    color: #f3f4f6; 
+    background: #020103; 
+    color: #f1eee9; 
     padding: 3rem 1.5rem; 
     text-align: center; 
-    border-top: 1px solid #374151; 
 }
 .footer-links { 
     display: flex; 
@@ -367,29 +393,30 @@ footer .card-btn {
 
 @media (max-width: 768px) {
     .menu-btn { 
-        display: block; 
-        z-index: 2;
-    }
-
-    .menu-btn:not(.index *) {
+      display: block; 
+      z-index: 2;
       background:  #010203;
       padding: 0 7px 2px 7px;
       border-radius: 4px;
     }
     .nav-links { 
-        display: none; 
-        flex-direction: column; 
-        width: 100%; 
-        position: absolute; 
-        top: 0; 
-        left: 0; 
-        background: #010203; 
-        padding: 1rem; 
-        /*border-top: 1px solid #e5e7eb; */
-        box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
+      display: none; 
+      flex-direction: column; 
+      width: 100% !important; 
+      position: absolute; 
+      top: 0; 
+      left: 0; 
+      background: #010203 !important; 
+      padding: 1rem; 
+      /*border-top: 1px solid #e5e7eb; */
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
     }
     .nav-links.active { 
         display: flex; 
+        width: 100vw !important; 
+        background: #010203 !important; 
+        padding-top: 3rem;
+        margin: 0 -1.5rem;
     }
     .hero-content {
         top: 18px;
