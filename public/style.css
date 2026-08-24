@@ -75,15 +75,29 @@ nav {
     text-decoration: none; 
     color: #e5e7eb; 
     font-weight: 500; 
-    transition: color 0.3s ease, border 0.3s ease; 
+    transition: color 0.3s ease, border 0.3s ease, background-color 0.3s ease;
     padding: 5px 15px;
     border: 1px solid transparent;
     border-radius: 20px;
+    background-color: transparent;
 }
+
+.nav-links a.join {
+  border: 1px solid #f1eee9;
+}
+
 .nav-links a:hover { 
     color: #fff; 
     border: 1px solid #f1eee9;
 }
+
+.nav-links a.join:hover {
+    color: #010203;
+    background-color: #fff;
+
+
+}
+
 .menu-btn { 
     display: none; 
     background: none; 
@@ -103,7 +117,7 @@ section {
 }
 
 .index section { 
-    padding: 4rem 1.5rem; 
+    padding: calc(2rem + 120px) 1.5rem 4rem 1.5rem;
 }
 
 .hero { 

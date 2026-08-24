@@ -22,8 +22,12 @@ function toggleMenu() {
   menuBtn.textContent = isOpen ? '✕' : '☰';
 }
 
-window.addEventListener('scroll', () => {
+function updateHeaderScrollState() {
     const header = document.querySelector('header');
     if (!header) return;
     header.classList.toggle('scrolled', window.scrollY > 0);
-}, { passive: true });
+}
+
+document.addEventListener('partialsLoaded', updateHeaderScrollState);
+window.addEventListener('scroll', updateHeaderScrollState, { passive: true });
+window.addEventListener('load', updateHeaderScrollState);
