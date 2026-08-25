@@ -14,6 +14,14 @@ body {
 a {
   color: #004400;
   font-weight: 700;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.2s ease;
+}
+
+a:hover {
+  border-bottom: 1px dotted #004400;
 }
 /*header { 
     position: absolute; 
