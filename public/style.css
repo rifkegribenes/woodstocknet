@@ -71,7 +71,7 @@ nav {
 .nav-links { 
     display: flex; 
     list-style: none; 
-    gap: 1.5rem; 
+    gap: .75rem; 
 }
 .nav-links:not(.index *) {
   padding: 10px 20px;
@@ -172,6 +172,14 @@ section {
    background-repeat: no-repeat;
    background-position: left center; 
 }
+
+.hero-pods {
+   background:url('img/banner_map.jpg');
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-position: center center; 
+}
+
 .hero-content { 
     position: relative; 
     z-index: 10; 
@@ -191,7 +199,7 @@ h1 {
 
 h2 {
     line-height: .9;
-    /*margin-top: 1rem;*/
+    margin-top: 1rem;
 }
 
 .index h2 {
@@ -204,6 +212,11 @@ ul {
 }
 
 ul ul {
+  margin-top: 0;
+  margin-left: 2rem;
+}
+
+.body-text ul {
   margin-top: 0;
   margin-left: 2rem;
 }
@@ -454,6 +467,10 @@ footer .card-btn {
         background: #010203 !important; 
         padding-top: 3rem;
         margin: 0 -1.5rem;
+    }
+
+    .nav-links a.join {
+      margin-left: 20px;
     }
     .hero-content {
         top: 18px;
