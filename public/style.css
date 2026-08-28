@@ -174,7 +174,7 @@ section {
 }
 
 .hero-pods {
-   background:url('img/banner_map.jpg');
+   background:url('img/banner_pod.jpg');
    background-size:cover;
    background-repeat: no-repeat;
    background-position: center center; 
@@ -194,6 +194,10 @@ h1 {
 .hero h1 { 
     font-size: 3rem; 
     margin-bottom: 1rem; 
+}
+
+section h1 {
+  margin-bottom: 1rem;
 }
 
 
@@ -475,7 +479,7 @@ footer .card-btn {
     }
 
     .nav-links a.join {
-      margin-left: 20px;
+      /*margin-left: 20px;*/
     }
     .hero-content {
         top: 18px;
