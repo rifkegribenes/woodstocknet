@@ -18,6 +18,14 @@
       "**/node_modules/**"
     ],
     "rewrites": [
+      {
+        "source": "/radio",
+        "destination": "/radio.html"
+      },
+      {
+        "source": "/pods",
+        "destination": "pods.html"
+      },
       { "source": "!/**/*.@(css|js|png|jpg|svg|ico)", "destination": "/index.html" }
     ]
   }
