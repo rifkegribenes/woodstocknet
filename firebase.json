@@ -24,7 +24,7 @@
       },
       {
         "source": "/pods",
-        "destination": "pods.html"
+        "destination": "/pods.html"
       },
       { "source": "!/**/*.@(css|js|png|jpg|svg|ico)", "destination": "/index.html" }
     ]
