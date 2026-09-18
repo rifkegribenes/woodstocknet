@@ -132,16 +132,107 @@
                     <input type="radio" name="entry.229879303" value="Interested neighbor (anybody is welcome to join the list and come to NET meetings)"> Interested neighbor (anybody is welcome to join the list and come to NET meetings)
                   </label>
                 </div>
-              </div>
-              
+                 <!-- How did you hear about the SE NETs email list? -->
+                <div class="form-group">
+                  <p>
+                    <strong>
+                      How did you hear about the SE NETs email list?
+                      <span aria-label="Required">*</span>
+                    </strong>
+                  </p>
+
+                  <div class="checkbox-group">
+
+                      <label>
+                        <input type="checkbox"
+                               name="entry.405097919"
+                               value="Friend or neighbor">
+                        <span>Friend or neighbor</span>
+                      </label>
+
+                      <label>
+                        <input type="checkbox"
+                               name="entry.405097919"
+                               value="Print flyer">
+                        <span>Print flyer</span>
+                      </label>
+
+                      <label>
+                        <input type="checkbox"
+                               name="entry.405097919"
+                               value="Woodstocknet.org website / search engine">
+                        <span>Woodstocknet.org website / search engine</span>
+                      </label>
+
+                      <label>
+                        <input type="checkbox"
+                               name="entry.405097919"
+                               value="The Bee">
+                        <span>The Bee</span>
+                      </label>
+
+                      <label>
+                        <input type="checkbox"
+                               name="entry.405097919"
+                               value="Southeast Corner newsletter">
+                        <span>Southeast Corner newsletter</span>
+                      </label>
+
+                      <label>
+                        <input type="checkbox"
+                               name="entry.405097919"
+                               value="Woodstock Neighborhood Association">
+                        <span>Woodstock Neighborhood Association</span>
+                      </label>
+
+                      <label>
+                        <input type="checkbox"
+                               name="entry.405097919"
+                               value="Woodstock PTA">
+                        <span>Woodstock PTA</span>
+                      </label>
+
+                      <label class="other-option">
+                          <input type="checkbox"
+                                 name="entry.405097919"
+                                 value="__other_option__">
+                          <span>Other:</span>
+
+                          <input type="text"
+                                 name="entry.405097919.other_option_response"
+                                 placeholder="Please specify">
+                        </label>
+
+                    </div>
+
+                </div>
+
+                <!-- Friend/neighbor referral -->
+                <div class="form-group">
+                  <label for="referrer">
+                    If a friend or neighbor referred you, please let us know who so we can thank them for their outreach work!
+                  </label>
+
+                  <input type="text"
+                         id="referrer"
+                         name="entry.260240499"
+                         placeholder="Friend or neighbor's name">
+                </div>
+
+              </div> <!-- closes the outer form-group -->
+
               <div class="btn-container">
                   <button type="submit" class="card-btn">Submit</button>
               </div>
-            </div>
+
+            </div> <!-- closes #form-fields -->
+
             <!-- In-place Thank You Message (hidden by default) -->
-            <div id="thank-you-message" style="display: none; padding: 1.5rem; background: #dcfce7; color: #15803d; border-radius: 6px; font-weight: bold; text-align: center; margin-bottom: 1.5rem;">
+            <div id="thank-you-message"
+                 style="display: none; padding: 1.5rem; background: #dcfce7; color: #15803d; border-radius: 6px; font-weight: bold; text-align: center; margin-bottom: 1.5rem;">
                 Thanks for signing up! If you don't get a notification that you were added to the group within 24 hours, please contact us at tl.woodstock@friendsofportlandnet.org.
             </div>
+
           </form>
         </div>
     </section>

@@ -381,34 +381,63 @@ p {
     font-size: 1rem;
 }
 
-/* Radio group styling */
-  .radio-group {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    align-items: flex-start;
-  }
+/* Radio + checkbox group styling */
+.radio-group,
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
 
-  .radio-group label {
-    display: flex;
-    align-items: flex-start;
-    gap: 0.5rem;
-    width: 100%;       
-    cursor: pointer;
-    font-weight: 400;
-  }
+.radio-group label,
+.checkbox-group label {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  width: 100%;
+  cursor: pointer;
+  font-weight: 400;
+}
 
-  .form-group input[type="radio"] {
-    display: inline-block;
-    width: 20px;
-    flex-shrink: 0;    
-    margin-top: 0.25rem; 
-  }
+/* Radio buttons + checkboxes */
+.form-group input[type="radio"],
+.form-group input[type="checkbox"] {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  margin: 0.25rem 0 0 0;
+}
 
-  .radio-group label span {
-    display: inline;   
-    word-break: break-word; 
-  }
+/* Keep label text behaving properly */
+.radio-group label span,
+.checkbox-group label span {
+  display: inline;
+  word-break: break-word;
+}
+
+
+.checkbox-group .other-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.checkbox-group .other-option input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  margin: 0;
+}
+
+.checkbox-group .other-option input[type="text"] {
+  flex: 1;
+  width: auto;
+  min-width: 0;
+}
+
 
 .btn { 
     display: inline-block; 
