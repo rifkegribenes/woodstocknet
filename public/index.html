@@ -62,31 +62,19 @@
 
     <section id="events">
         <h2>Events</h2>
-        <div class="grid">
-            <div class="card">
-                <div class="card-img"  style="background-image:url('img/disaster_san_2.png');background-position:center left;" role="img" aria-label="A woman holding a two-bucket toilet and a roll of toilet paper."></div>
-                <h3>September 30: 🚽 Disaster Sanitation Workshop</h3>
-                <p class="event-details"><strong>Wednesday September 30, 6:30 - 7:30 PM</strong><br>Holgate Library, room 2A<br>7905 SE Holgate Blvd</p>
-                <p class="event-desc">Join neighbors to learn how to prepare for any disaster that breaks our plumbing! All are welcome. Best practices for alternative bathrooms (twin bucket system and hands-free handwashing) and other disease prevention strategies. Organized by Foster/Powell NET; open to all!</p>
-                <a class="card-btn" href="mailto:fosterpowellNET@gmail.com">More info</a>
-            </div>
-            <div class="card">
-                <div class="card-img"  style="background-image:url('img/blockparty.jpg');background-position:center center;" role="img" aria-label="A group of people at a block party, sitting on lawn chairs in front of a house."></div>
-                <h3>October 11: Neighborhood Pod Starter Kit</h3>
-                <p class="event-details"><strong>Sunday October 11, 12:30 - 2:30 PM</strong><br>Woodstock Library community room<br>6008 SE 49th Ave.</p> 
-                <p class="event-desc">Our NET training covers disaster response — this workshop covers the community organizing skills to build strong neighborhood ties before disaster hits. Practice the 1:1 conversations and first-meeting basics that turn interested neighbors into a community preparedness pod, and leave with a starter kit of tools, a plan for your first outreach, and a group to check in with along the way.</p>
-                <a class="card-btn" href="https://calendar.app.google/kAZggwh558oYP57r6">More details / RSVP</a>
-            </div>
-            <div class="card">
-                <div class="card-img"  style="background-image:url('img/CDE_2018_Oct.png');background-position:center center;" role="img" aria-label="A group of people wearing orange vests and red hard hats, holding walkie talkies and clipboards."></div>
-                <h3>November 7: Fall City-wide Deployment Exercise (CDE)</h3>
-                <p class="event-details"><strong>Saturday November 7, 1:00 - 4:00 PM</strong><br>Woodstock Park, SW corner<br>SE 47th/Harold </p> 
-                <p class="event-desc">Twice a year, NET teams all over the city role-play a disaster scenario and practice search and rescue, triage, radio communications, and Incident Command Structure. Lots of fun, and a great way to practice the skills you learned in basic training. If you're still waiting for a spot in Basic NET Training, you can participate as a Spontaneous Unaffiliated Volunteer (SUV). <strong>Registration opens in October.</strong></p>
-                <!-- <a class="card-btn" href="https://calendar.app.google/kAZggwh558oYP57r6">More details / RSVP</a> -->
-            </div>
+
+        <div id="event-cards" class="grid">
+            <!-- Event cards are rendered here by events.js -->
         </div>
+
         <div class="btn-container">
-            <a href="https://calendar.google.com/calendar/u/0?cid=d29vZHN0b2NrbmV0ZXZlbnRzQGdtYWlsLmNvbQ" target="_blank" class="card-btn">All Events</a>
+            <a
+                href="https://calendar.google.com/calendar/u/0?cid=d29vZHN0b2NrbmV0ZXZlbnRzQGdtYWlsLmNvbQ"
+                target="_blank"
+                class="card-btn"
+            >
+                All Events
+            </a>
         </div>
     </section>
 
@@ -237,13 +225,6 @@
         </div>
     </section>
 
-<!--     <section id="events">
-        <h2>Events</h2>
-        <div class="calendar-container">
-            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FLos_Angeles&showPrint=0&showTitle=0&showTz=0&src=d29vZHN0b2NrbmV0ZXZlbnRzQGdtYWlsLmNvbQ&color=%23039be5&mode=AGENDA" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-        </div>
-    </section> -->
-
     <div id="site-footer"></div>
 
     <script>
@@ -267,5 +248,6 @@
         }
     </script>
     <script src="js/includes.js"></script>
+    <script src="js/events.js"></script>
 </body>
 </html>

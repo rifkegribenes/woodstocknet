@@ -1,0 +1,42 @@
+[
+    {
+        "title": "🚽 Disaster Sanitation Workshop",
+        "date": "2026-09-30",
+        "startTime": "18:30",
+        "endTime": "19:30",
+        "timezone": "America/Los_Angeles",
+        "imageUrl": "img/disaster_san_2.png",
+        "imagePosition": "center left",
+        "location": "Holgate Library, room 2A",
+        "address": "7905 SE Holgate Blvd",
+        "description": "Join neighbors to learn how to prepare for any disaster that breaks our plumbing! All are welcome. Best practices for alternative bathrooms (twin bucket system and hands-free handwashing) and other disease prevention strategies. Organized by Foster/Powell NET; open to all!",
+        "buttonText": "More info",
+        "buttonLink": "mailto:fosterpowellNET@gmail.com"
+    },
+    {
+        "title": "Neighborhood Pod Starter Kit",
+        "date": "2026-10-11",
+        "startTime": "12:30",
+        "endTime": "14:30",
+        "timezone": "America/Los_Angeles",
+        "imageUrl": "img/blockparty.jpg",
+        "imagePosition": "center center",
+        "location": "Woodstock Library community room",
+        "address": "6008 SE 49th Ave.",
+        "description": "Our NET training covers disaster response — this workshop covers the community organizing skills to build strong neighborhood ties before disaster hits. Practice the 1:1 conversations and first-meeting basics that turn interested neighbors into a community preparedness pod, and leave with a starter kit of tools, a plan for your first outreach, and a group to check in with along the way.",
+        "buttonText": "More details / RSVP",
+        "buttonLink": "https://calendar.app.google/kAZggwh558oYP57r6"
+    },
+    {
+        "title": "Fall City-wide Deployment Exercise (CDE)",
+        "date": "2026-11-07",
+        "startTime": "13:00",
+        "endTime": "16:00",
+        "timezone": "America/Los_Angeles",
+        "imageUrl": "img/CDE_2018_Oct.png",
+        "imagePosition": "center center",
+        "location": "Woodstock Park, SW corner",
+        "address": "SE 47th/Harold",
+        "description": "Twice a year, NET teams all over the city role-play a disaster scenario and practice search and rescue, triage, radio communications, and Incident Command Structure. Lots of fun, and a great way to practice the skills you learned in basic training. If you're still waiting for a spot in Basic NET Training, you can participate as a Spontaneous Unaffiliated Volunteer (SUV). <strong>Registration opens in October.</strong>"
+    }
+]
