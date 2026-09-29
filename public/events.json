@@ -37,6 +37,8 @@
         "imagePosition": "center center",
         "location": "Woodstock Park, SW corner",
         "address": "SE 47th/Harold",
-        "description": "Twice a year, NET teams all over the city role-play a disaster scenario and practice search and rescue, triage, radio communications, and Incident Command Structure. Lots of fun, and a great way to practice the skills you learned in basic training. If you're still waiting for a spot in Basic NET Training, you can participate as a Spontaneous Unaffiliated Volunteer (SUV). <strong>Registration opens in October.</strong>"
+        "description": "Twice a year, NET teams all over the city role-play a disaster scenario and practice search and rescue, triage, radio communications, and Incident Command Structure. Lots of fun, and a great way to practice the skills you learned in basic training. If you're still waiting for a spot in Basic NET Training, you can participate as a Spontaneous Unaffiliated Volunteer (SUV).",
+        "buttonText": "Register",
+        "buttonLink": "https://docs.google.com/forms/d/e/1FAIpQLSfCZuF-TOVWXRYfVpiSGp8mzisz73ksjW-c55-v3jzKDwS_bg/viewform?usp=header"
     }
 ]
