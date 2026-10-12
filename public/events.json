@@ -40,5 +40,19 @@
         "description": "Twice a year, NET teams all over the city role-play a disaster scenario and practice search and rescue, triage, radio communications, and Incident Command Structure. Lots of fun, and a great way to practice the skills you learned in basic training. If you're still waiting for a spot in Basic NET Training, you can participate as a Spontaneous Unaffiliated Volunteer (SUV).",
         "buttonText": "Register",
         "buttonLink": "https://docs.google.com/forms/d/e/1FAIpQLSfCZuF-TOVWXRYfVpiSGp8mzisz73ksjW-c55-v3jzKDwS_bg/viewform?usp=header"
+    },
+    {
+        "title": "Meshcore: Off-grid communications",
+        "date": "2026-11-02",
+        "startTime": "18:30",
+        "endTime": "20:00",
+        "timezone": "America/Los_Angeles",
+        "imageUrl": "img/meshcore.png",
+        "imagePosition": "center center",
+        "location": "Orion's house",
+        "address": "See event invite for details",
+        "description": "Meshcore is a simple, secure, off-grid mesh communications system. As a neighborhood, we can build our own low-cost, long-range, encrypted messaging network. You can still send messages even when WiFi, Cellular, and Starlink are down.",
+        "buttonText": "More info / RSVP",
+        "buttonLink": "https://calendar.app.google/HpEn8zJ9T8C2gL5r7"
     }
 ]
