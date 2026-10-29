@@ -180,6 +180,13 @@ section {
    background-position: center center; 
 }
 
+.hero-cde {
+    background:url('img/banner_cde_hero.jpg');
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-position: center center; 
+}
+
 .hero-content { 
     position: relative; 
     z-index: 10; 
