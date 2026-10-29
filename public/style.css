@@ -184,7 +184,7 @@ section {
     background:url('img/banner_cde_hero.jpg');
    background-size:cover;
    background-repeat: no-repeat;
-   background-position: center center; 
+   background-position: left center; 
 }
 
 .hero-content { 
