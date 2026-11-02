@@ -36,10 +36,10 @@
         "imageUrl": "img/meshcore.png",
         "imagePosition": "center center",
         "location": "Orion's house",
-        "address": "See event invite for details",
+        "address": "RSVP for details",
         "description": "Meshcore is a simple, secure, off-grid mesh communications system. As a neighborhood, we can build our own low-cost, long-range, encrypted messaging network. You can still send messages even when WiFi, Cellular, and Starlink are down.",
         "buttonText": "More info / RSVP",
-        "buttonLink": "https://calendar.app.google/HpEn8zJ9T8C2gL5r7"
+        "buttonLink": "mailto: tl.woodstck@friendsofportlandnet.org"
     },
     {
         "title": "Fall City-wide Deployment Exercise (CDE)",
