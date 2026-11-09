@@ -30,6 +30,10 @@
         "source": "/ics_roles",
         "destination": "/ics_roles.html"
       },
+      {
+        "source": "/signal",
+        "destination": "/signal.html"
+      },
       { "source": "!/**/*.@(css|js|png|jpg|svg|ico)", "destination": "/index.html" }
     ]
   }
